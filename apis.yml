@@ -1,8 +1,33 @@
 aid: onehealthcompany
 name: OneHealthCompany
-description: OneHealthCompany is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  The One Health Company is a Palo Alto veterinary precision-oncology company,
+  best known for its FidoCure platform, that brings human-grade precision cancer
+  medicine to dogs. FidoCure sequences a dog's tumor with next-generation DNA
+  sequencing, matches the cancer-driving mutations to targeted therapies, and
+  gives veterinarians an individualized treatment plan grounded in the world's
+  largest proprietary canine cancer dataset (billions of data points across a
+  network of more than 1,300 veterinary clinics). The company was founded in
+  2015 by Christina Lopes and Ben Lewis on the "One Health" thesis that treating
+  cancer in companion dogs also advances real-world evidence for human oncology.
+  It is backed by Andreessen Horowitz (a16z bio), Y Combinator, Polaris Partners,
+  Borealis Ventures, Lerer Hippeau and Tau Ventures. As of this profile the
+  company exposes a consumer and veterinarian web experience (including a
+  veterinarian login portal) but publishes no public developer API, SDK, or
+  programmatic surface.
 url: https://raw.githubusercontent.com/api-evangelist/onehealthcompany/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fidocure.com/wp-content/uploads/2023/06/FidoCure-Home.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +36,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Veterinary
+- Animal Health
+- Healthcare
+- Precision Medicine
+- Oncology
+- Genomics
+- Artificial Intelligence
+- Real World Evidence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/onehealthcompany-domain-security.yml
+- type: Website
+  url: https://fidocure.com/
+- type: Portal
+  url: https://dvm.fidocure.com/
+- type: Blog
+  url: https://blog.fidocure.com/fidocure-blog
+- type: Support
+  url: https://fidocure.com/contact-us/
+- type: TermsOfService
+  url: https://fidocure.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://fidocure.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
